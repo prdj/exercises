@@ -26,10 +26,11 @@ console.log(x / y);
 
 console.log(x * y / z);
 
+
 let resultOne = x * y / z
 
-
 console.log(resultOne);
+
 
 console.log(a + b / c);
 
