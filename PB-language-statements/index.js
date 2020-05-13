@@ -5,3 +5,7 @@ console.log('hello world');
 /* 1: No, does not. */
 
 /*2: Error:Unexpected string */
+
+let firstName = 'pedro';
+console.log(firstName);
+
