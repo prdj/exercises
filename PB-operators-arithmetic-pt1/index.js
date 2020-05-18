@@ -47,7 +47,7 @@ console.log(b);
 console.log(a - b);
 
 
-let d = a - b 
+let d = a - b; 
 
 
 console.log(d + c);

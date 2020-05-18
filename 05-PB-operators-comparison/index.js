@@ -4,10 +4,10 @@ let x = 20;
 let y = 30;
 let z = 5;
 console.log('1. Check whether x and y are equal.');
-console.log(x==y);
+console.log(x===y);
 
 console.log('2. Check whether x and y are *not* equal.');
-console.log(x!=y);
+console.log(x!==y);
 
 console.log('3. Check whether x is greater than y.');
 console.log(x>y);
@@ -25,7 +25,7 @@ console.log('7. Subtract z from x and check whether this result is less than y d
 console.log((z-x)<(y/z));
 
 console.log('8. Check whether z, x and y are equal.');
-console.log(x==y==z);
+console.log(x===y===z);
 
 console.log('9. Check whether the remainder of x divided by z and the remainder of y divided by z are equal.');
 console.log('The remainder of x divided by z is: ' + x % z + '.');

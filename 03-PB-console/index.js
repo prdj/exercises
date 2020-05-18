@@ -4,13 +4,13 @@ console.log(text);
 let myVariable = 'This is the value.';
 console.log(myVariable);
 
-let FirstName = 'Pedro';
-let SecondName = 'Dantas'
-console.log(FirstName, SecondName);
+let firstName = 'Pedro';
+let secondName = 'Dantas'
+console.log(firstName, secondName);
 
-let Fname = 'Amador';
+let fname = 'Amador';
 
-let Sname = 'Mato';
+let sname = 'Mato';
 
 let age = '33 anos';
 
@@ -18,7 +18,7 @@ let job = 'Pintor';
 
 let city = 'Catanduvas';
 
-console.log ( Fname, Sname, city, age, job);
+console.log ( fname, sname, city, age, job);
 
 
 Fname = 'Pedrinho';
@@ -31,7 +31,7 @@ job = 'Matador';
 
 city = 'Matolandia';
 
-console.log( 'this is ' +  Fname, Sname, 'he is from ' + city);
+console.log( 'this is ' +  fname, sname, 'he is from ' + city);
 
 
 

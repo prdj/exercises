@@ -7,9 +7,9 @@ const Ticket = 15;
 console.log(soldTickets/Ticket + ' tickets were sold last nigth.');
 
 //Q2
-let WeekyIncome = 500;
+let weekyIncome = 500;
 let year = 12;
-console.log(WeekyIncome * year + ' is the amount of money Sylvia makes per year.')
+console.log(weekyIncome * year + ' is the amount of money Sylvia makes per year.')
 
 //Q3
 let result = (17*100/30);
@@ -24,20 +24,20 @@ let c = 5;
 let b = 6;
 let d = 7;
 
-let S = c + b + d;
-console.log('The perimeter of the triangle is: '+ S + 'cm.');
+let s = c + b + d;
+console.log('The perimeter of the triangle is: '+ s + 'cm.');
 
 //Q6
-let As = 5*5;
-console.log('The area of the square is : ' + As + 'cm².');
+let as = 5*5;
+console.log('The area of the square is : ' + as + 'cm².');
 
 //Q7
-let Area = Math.sqrt(S*(S-c)*(S-b)*(S-d));
-console.log(Area + 'cm² is the area of the triangle.');
+let area = Math.sqrt(S*(S-c)*(S-b)*(S-d));
+console.log(area + 'cm² is the area of the triangle.');
 
 //Q8
-let Volume = 9*9*9;
-console.log(Volume + ' cm3');
+let volume = 9*9*9;
+console.log(volume + ' cm3');
 
 //Q9
 let billone = 22.35 + (22.35*10/100);
@@ -50,16 +50,16 @@ let billthree = 35.92 + (22.35*10/100);
 console.log(billthree + '$ 3-bill+tip');
 
 //Q10
-let NoemyAverageHours = (8 + 6 + 5 + 9 + 8 + 2 + 1 + 8.5 + 7 + 4)/10;
-console.log(NoemyAverageHours + ' hours average per day.');
+let noemyAverageHours = (8 + 6 + 5 + 9 + 8 + 2 + 1 + 8.5 + 7 + 4)/10;
+console.log(noemyAverageHours + ' hours average per day.');
 
 //Q11
 let x = 6*85-(75 + 70 + 85 + 90 + 100);
 console.log(x + ' is the score in the sixth test.');
 
 //Q12
-let AverageNeeded = (80 * 9)-(78 * 8);
-console.log('James needs a minimum of '+ AverageNeeded + '% to get an 80% average.');
+let averageNeeded = (80 * 9)-(78 * 8);
+console.log('James needs a minimum of '+ averageNeeded + '% to get an 80% average.');
 
 
 
