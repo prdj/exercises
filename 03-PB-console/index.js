@@ -21,9 +21,9 @@ let city = 'Catanduvas';
 console.log ( fname, sname, city, age, job);
 
 
-Fname = 'Pedrinho';
+fname = 'Pedrinho';
 
-Sname = 'Matador';
+sname = 'Matador';
 
 age = '33 anos';
 
