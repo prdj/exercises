@@ -32,11 +32,11 @@ console.log(name + ' is married:' + [isMarried] + '.');
 
 console.log('9.');
 let programmingLanguage = 'JavaScript';
-console.log(programmingLanguage + ' is fun:' + isMarried + '.')
+console.log(programmingLanguage + ' is fun: true.');
 
 console.log('10.');
 console.log(programmingLanguage[0]);
 console.log(programmingLanguage[4]);
 
 console.log('11.');
-console.log(programmingLanguage.length + ' is tge length.');
+console.log(programmingLanguage.length + ' is the length.');
