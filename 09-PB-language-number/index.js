@@ -18,7 +18,7 @@ let numberOne = 30;
 let numberTwo = 939;
 let numberThree = 40.9;
 
-numberOne = numberOne % 2 === 0 ? '30 is even.' : 'it is odd.'
+numberOne = numberOne % 2 === 0 ? '30 is even.' : '30 is odd.'
 console.log(numberOne);
 
 numberTwo = numberTwo % 2 === 0 ? '939 is even.' : '939 is odd.'
