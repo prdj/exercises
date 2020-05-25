@@ -15,5 +15,5 @@ console.log(Math.floor(3321.32321), Math.floor(326.76), Math.floor(76788.7), Mat
 console.log('3-)')
 let min = 1;
 let max = 6;
-let random = Math.random() * (+max - +min) + +min; 
+let random = Math.random() * (max - min) + min; 
 console.log(Math.ceil(random));
