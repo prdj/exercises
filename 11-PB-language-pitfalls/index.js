@@ -17,4 +17,4 @@ console.log('3.')
 
 console.log(`infinity divided by 0: ${Infinity / 0}.`);
 console.log(`infinity divided by infinity: ${Infinity / Infinity}.`);
-console.log(`1 divided by 0: ${1 / 0}.`); 
+console.log(`1 divided by 0: ${1 / 0}.`);
