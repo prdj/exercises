@@ -3,7 +3,6 @@
 
 #### 1. What type? 
 * Check whether `3` is equal to `"3"` using loose comparison. Then, check whether they are equal while using strict comparison. 
-**Questions: Comment your answers in the js file.** 
 * Is there a difference? Why/why not? 
 * Which comparison operator should we generally use? Why?
 * What would happen if we were to use `=`?
