@@ -11,7 +11,7 @@ console.log(3 === '3');
 
 console.log('2.')
 let exTwo = true;
-console.log(!exTwo);
+console.log((!exTwo) ? 'true' : 'false');
 
 console.log('3.')
 let firstName, givenName;
