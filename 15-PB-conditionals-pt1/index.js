@@ -5,7 +5,7 @@ console.log('1.')
 let exOne = 99;
 let exOneb = 90;
 
-if ((exOne >= 50 && exOne <= 99) && (exOneb >= 50 && exOneb <= 99)) {
+if ((50 >=  exOne <= 99) && (50 >= exOneb <= 99)) {
 console.log(true);
 } else {
     console.log(false);
@@ -32,8 +32,8 @@ if (a>b && a>c) {
 }
 
 console.log('4.')
-let newStr = 'oi';
-if (newStr === null || newStr === undefined || newStr.includes('Py'))
+let newStr = 'Pythonn';
+if (newStr === null || newStr === undefined || newStr.substring(0, 2)=== 'Py')
 {
     console.log(newStr);
 } else  {
