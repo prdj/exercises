@@ -1,4 +1,4 @@
-'use strickt';
+'use strict';
 
 console.log('1.')
 
