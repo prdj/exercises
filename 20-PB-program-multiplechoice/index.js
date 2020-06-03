@@ -16,7 +16,7 @@ switch (color) {
         console.log('Tomatos are yellow.');
         break;
     default:
-        console.log('blue berries')
+        console.log('blue berries');
 }
 
 console.log('2.')
@@ -33,7 +33,7 @@ switch (grade) {
         console.log('Super good.');
         break;
     default:
-        console.log('Invalid number.')
+        console.log('Invalid number.');
 }
 
 console.log('3.')
@@ -60,27 +60,27 @@ switch (fruit) {
 console.log('4.')
 
 
-let percenTage = 111;
+let percenTage = 0;
 
 switch (percenTage) {
-    case (percenTage <= 30 ? percenTage : null):
+    case (percenTage <= 30 && percenTage != 0 ? percenTage : null):
         console.log('Still a long way to go');
         break;
     case (percenTage > 30 && percenTage <= 50 ? percenTage : null):
         console.log('Slowly getting there');
         break;
-        case (percenTage >= 51 && percenTage <= 80 ? percenTage : null):
+    case (percenTage >= 51 && percenTage <= 80 ? percenTage : null):
         console.log('You can do it!');
         break;
-        case (percenTage >= 81 && percenTage <= 99 ? percenTage : null):
+    case (percenTage >= 81 && percenTage <= 99 ? percenTage : null):
         console.log('This is the last push!');
         break;
-        case (percenTage === 100 ? percenTage : null):
+    case (percenTage === 100 ? percenTage : null):
         console.log('You\'re there. Well done!');
         break;
-    
+
     default:
-        console.log('Invalid number.')
+        console.log('Invalid number.');
 }
 
 console.log('5.')
