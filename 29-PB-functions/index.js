@@ -28,14 +28,16 @@ const dictionary = (a, b) => {
 dictionary('bu', 'button');
 
 console.log('4-');
-const lessThanOrEqualToZero = (x) => {
-    if (x <= 0) {
-        console(true);
-    } else {
-        console.log(false);
-    }
-}
-lessThanOrEqualToZero(3);
+const lessThanOrEqualToZero = x => x <= 0;
+
+let hhh = lessThanOrEqualToZero(3);
+console.log(hhh);
+hhh = lessThanOrEqualToZero(0);
+console.log(hhh);
+hhh = lessThanOrEqualToZero(-4);
+console.log(hhh);
+hhh = lessThanOrEqualToZero(10);
+console.log(hhh);
 
 console.log('5-');
 const countOccurrences = (a, b) => {
@@ -61,62 +63,74 @@ console.log('8-');
 const calcSupply = (a, b) => {
     if (a<=80) { 
         let yearsLeft = 80 - a;
-        console.log(yearsLeft*365*b);
+      /*   console.log(yearsLeft*365*b); */
+        return `You will need ${yearsLeft*365*b} bars of chocolate.`;
     }
 }
-calcSupply(40,3);
+console.log(calcSupply(25,2));
 
 
 
 console.log('9-');
 const isWaldoHere = (x) => {
-    if (typeof x === "string" && x.split('waldo').length - 1 >= 1) {
-        console.log(true);
+    if (typeof x === "string" && x.toLowerCase().split('waldo').length - 1 >= 1) {
+        return true;
     } else {
-        console.log(false);
+        return false;
     }
 }
-isWaldoHere('aldo is here');
+console.log(isWaldoHere('is there wal here ?'));
+console.log(isWaldoHere('I found you Waldo!'));
+console.log(isWaldoHere('is wally here?'));
+console.log(isWaldoHere('waldo is here'));
 
 
 console.log('10-');
 const equalSlices = (a, b, c) => {
     if ( b*c <= a ){
-        console.log(true);
+        return true;
     } else {
-        console.log(false);
+        return false;
     }
 }
-
-equalSlices(11, 5, 3);
+console.log(equalSlices(8, 3, 2));
+console.log(equalSlices(8, 3, 3));
+console.log(equalSlices(24, 12, 2));
 
 console.log('11-');
 const exEleven = (s) => {
-    if (typeof s === "string" && s.split('x').length - 1 === s.split('o').length - 1){
-        console.log(true);
+    if (typeof s === "string" && s.toLowerCase().split('x').length - 1 === s.toLowerCase().split('o').length - 1){
+        return true;
     } else {
-        console.log(false);
+        return false;
     }
 }
-exEleven('ooxxx');
+console.log(exEleven('ooxx'));
+console.log(exEleven('xooxx'));
+console.log(exEleven('ooxXm'));
+console.log(exEleven('zpzpzpp'));
+console.log(exEleven('zzoo'));
 
 console.log('12-');
 const isPrime = (n) => {
     if(n > 1 && n % 2 != 0 && n % 3 !=0 ) {
-        console.log(true);
+        return true;
     } else {
-        console.log(false);
+        return false;
     }
 }
-isPrime(10);
+console.log(isPrime(7));
+console.log(isPrime(9));
+console.log(isPrime(10));
 
 console.log('13-');
 const validateEmail = (e) => {
-    if (e.split('@email.com').length - 1 === 1 && e.length > 10){
-        console.log(true);
+    if (e.split('@example.com').length - 1 === 1 && e.length > 12){
+        return true;
     } else {
-        console.log(false);
+        return false;
     }
 }
 
-validateEmail('P@email.com');
+console.log(validateEmail('john@example.com'));
+console.log(validateEmail('@example.com'));
