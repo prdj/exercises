@@ -102,9 +102,21 @@ exEleven('ooxxx');
 
 console.log('12-');
 const isPrime = (n) => {
-    if(n >1 && n / n === 0 && n / 1 === n ){
+    if(n > 1 && n % 2 != 0 && n % 3 !=0 ) {
         console.log(true);
+    } else {
+        console.log(false);
+    }
+}
+isPrime(10);
+
+console.log('13-');
+const validateEmail = (e) => {
+    if (e.split('@email.com').length - 1 === 1 && e.length > 10){
+        console.log(true);
+    } else {
+        console.log(false);
     }
 }
 
-isPrime(7);
+validateEmail('P@email.com');
