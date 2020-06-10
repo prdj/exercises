@@ -51,13 +51,16 @@ console.log('6-');
 const exSix = (a, b) => {
     console.log(a ** b);
 }
+exSix(5, 5);
 exSix(10, 10);
+exSix(3, 3);
 
 console.log('7-');
 const dogAge = (x) => {
-    console.log(x * 7);
+    let age = x*7;
+    return `Your doggo is ${age} years old in human years!`;
 }
-dogAge(3);
+console.log(dogAge(3));
 
 console.log('8-');
 const calcSupply = (a, b) => {
@@ -125,12 +128,15 @@ console.log(isPrime(10));
 
 console.log('13-');
 const validateEmail = (e) => {
-    if (e.split('@example.com').length - 1 === 1 && e.length > 12){
+    if (e.split('@').length - 1 === 1 && e.split('.').length - 1 >= 1 && e.indexOf('@') > 0){
         return true;
     } else {
         return false;
     }
 }
-
 console.log(validateEmail('john@example.com'));
+console.log(validateEmail('pedrojr_dantas@hotmail.com'));
+console.log(validateEmail('@hotmail.com'));
 console.log(validateEmail('@example.com'));
+console.log(validateEmail('a@b.com'));
+console.log(validateEmail('john@example.co.uk'));
