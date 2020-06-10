@@ -1,16 +1,22 @@
 'use strict';
 
-console.log('1-)')
+console.log('1-)');
 
 const exOne = (x, y) => {
     console.log(typeof x);
     console.log(typeof y);
-    console.log(x ** y);
+    let result = '';
+    for (let i = 1; i <= y; i++) {
+        result = result + ' ' + x ** i;
+        console.log(x ** i);
+        console.log(result);
+
+    }
 }
 exOne(2, 5);
 
 
-console.log('2-)')
+console.log('2-)');
 let myFruit = 'avocado';
 const printFavoriteFruit = (fruit) => {
     fruit = 'banana';
@@ -19,12 +25,10 @@ const printFavoriteFruit = (fruit) => {
 printFavoriteFruit(myFruit);
 
 
-console.log('3-)')
+console.log('3-)');
 
 const exponent = (a, b) => {
     const result = a ** b;
     console.log(result);
 }
 exponent(2, 6);
-
-let result = a + b;

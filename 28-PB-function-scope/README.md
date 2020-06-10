@@ -2,7 +2,7 @@
 
 #### 1. Print Exponential Values
 * Write a function that accepts two numbers and validate that they are numbers. 
-
+cd 
 After that, the function should print _y_ exponential values starting from _x_.
 
 * For example if we have function(3, 5) The function should print `3 9 27 81 243`. Prints 5 exponential values of 3.

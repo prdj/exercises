@@ -1,20 +1,20 @@
 'use strict';
 
-console.log('Ex-1')
+console.log('Ex-1');
 
 function exOne(a, b) {
     console.log(a * b);
 }
 exOne(0, 1);
 
-console.log('Ex-2')
+console.log('Ex-2');
 
 const exTwo = function (a, b) {
     console.log(a * b);
 }
 exTwo(2, 3);
 
-console.log('Ex-3')
+console.log('Ex-3');
 
 const exThree = (a, b) => {
     console.log(a * b);
@@ -22,7 +22,7 @@ const exThree = (a, b) => {
 
 exThree(1, 2);
 
-console.log('Ex-4')
+console.log('Ex-4');
 
 function exFourA(a, b) {
     let remainder = a % b;
