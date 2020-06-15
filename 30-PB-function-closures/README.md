@@ -11,7 +11,7 @@ add(3)(4);
 
 #### 2. Multiply
 
-- Write a function `multiplier` that uses a closure to perform multiplication. However, the outer function should be stored in a variable which is then called.
+- Write a function `multiplier` that uses a closure to perform multiplication. However, the outer console.log('2.'); which is then called.
 
 #### 3. Calculate Money Saved till Pension Day!
 

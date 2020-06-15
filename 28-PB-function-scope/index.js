@@ -32,6 +32,6 @@ const exponent = (a, b) => {
     return result; 
 }
 console.log(exponent(2, 6));
-console.log(result);
+
 
 //The vareable is not defined out of the function scope, in another words is not globally.

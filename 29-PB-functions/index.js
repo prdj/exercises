@@ -140,3 +140,27 @@ console.log(validateEmail('@hotmail.com'));
 console.log(validateEmail('@example.com'));
 console.log(validateEmail('a@b.com'));
 console.log(validateEmail('john@example.co.uk'));
+
+
+/* const validateEMail = (string) => {
+    let isAsRequired = true;
+    let countAt = 0;
+    let atPos = 0;
+    let dotPos = 0;
+    for (let i = 0; i < string.length; i++) {
+      if (string[i] === "@") {
+        countAt++;
+        atPos = i;
+      }
+      if (string[i] === ".") {
+        dotPos = i;
+      }
+    }
+    if (string[0] === "@" || countAt !== 1 || atPos > dotPos) {
+      isAsRequired = false;
+    }
+    return `"${string}" is ${isAsRequired ? "valid" : "invalid"}.`;
+  };
+
+    console.log(validateEMail('a@b.com'));
+    console.log(validateEMail('john@example.co.uk')); */
