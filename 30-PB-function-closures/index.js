@@ -12,15 +12,16 @@ let result = sum(3)(4);
 console.log(result);
 
 
-console.log('2.');
 
-function multiplier(a) {
+console.log('2.');
+//anonymos function
+const multiplier = function (a) {
     return function multiplier(b) {
         return a * b;
     };
 }
-let mult = multiplier(3)(4);
-console.log(mult);
+console.log(multiplier(3)(4));
+
 
 console.log('3.');
 
@@ -28,5 +29,5 @@ console.log('3.');
     if (actAge >= 65) {
         console.log('You\'re already retired!');
     } else
-        console.log((retAge - actAge) * (wage) * (percentage * 0.1));
-})(77, 65, 2000, 5);
+        console.log(((retAge - actAge) * (wage * 1.2)) * (percentage * 0.1));
+})(40, 65, 2000, 5);

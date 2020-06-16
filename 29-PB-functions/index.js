@@ -18,14 +18,17 @@ sumOfCubes(1, 5, 9);
 console.log('3-');
 const dictionary = (a, b) => {
     if (typeof a === "string" && typeof b === "string") {
-        if (a.substring(0, 1) === b.substring(0, 1)) {
+        if (a === b.substring(0, b.length-1)) {
             console.log(true);
         } else {
             console.log(false);
         }
     }
 }
-dictionary('bu', 'button');
+dictionary('butt', 'button');
+dictionary('tri', 'triplet'); 
+dictionary('beau', 'pastry');
+
 
 console.log('4-');
 const lessThanOrEqualToZero = x => x <= 0;
