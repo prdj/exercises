@@ -29,5 +29,5 @@ console.log('3.');
     if (actAge >= 65) {
         console.log('You\'re already retired!');
     } else
-        console.log(((retAge - actAge) * (wage * 1.2)) * (percentage * 0.1));
+        console.log(((retAge - actAge) * (wage * 1.2)) * (percentage * 0.01));
 })(40, 65, 2000, 5);
