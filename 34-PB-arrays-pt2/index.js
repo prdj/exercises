@@ -36,7 +36,7 @@ console.log('3-)');
 
 function reverse(n) {
     let number = n.toString().split('').reverse().join('');
-    return number;
+    return parseInt(number);
 }
 
 console.log(reverse(46579));
@@ -64,7 +64,7 @@ const missingNums = (x) => {
 
     let myArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     let result = myArr.filter(s => !x.includes(s));
-    return result
+    return result[0];
 }
 
 
