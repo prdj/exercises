@@ -9,19 +9,31 @@ const sumOfNumber = () => {
         myArr.push(i);
         sum = myArr.reduce((a, b) => a + b);
     }
-    return `Arr:${myArr} Sum Of Arr: ${sum}`;
+    return `Array: [${myArr}] Sum Of Array: ${sum}`;
 }
 console.log(sumOfNumber());
 
 console.log('2-)');
 
-const helloFriends = () => {
-    let myArr = ['pedro', 'joao', 'maria', 'joana', 'jose', 'joaquim', 'jumira'];
-    let msg = '';
-    for (let i = 0; i < myArr.length; i++){
-         msg = myArr[i] + ' is at index ' + [i] + ' of my friends array.';
-    }    
-    return msg;
+const helloFriends = (x) => {
+    let output = '';
+    for (let i = 0; i < x.length; i++) {
+        output += 'Hello ' + x[i] + '.' + ' You are at index ' + [i] + ' of my friends array.\n';
+    }
+    return output;
 }
 
-console.log(helloFriends());
+console.log(helloFriends(['pedro', 'joao', 'maria', 'joana', 'jose', 'joaquim', 'jumira']));
+
+
+console.log('3-)');
+
+const cityNames = (x) => {
+    let output = '';
+    for ( let i = 0; i < x.length; i++){
+        output += x[i].split(',');
+    }
+    return output;
+}
+
+console.log(cityNames(['Berlin', 'Prague', 'Roma', 'Paris']));
