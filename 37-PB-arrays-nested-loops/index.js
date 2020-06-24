@@ -51,7 +51,7 @@ const program = () => {
     let outputone = '';
     for (let i = 1; i <= 4; i++) {
         outputone += ' ' + [i] + ' ' + [i] + ' ' + [i];
-        for (let j = 0; j <= i; j++) {
+        for (let j = 0; j <= i ; j++) {
             output += ' ' + [j];
         }
     }
