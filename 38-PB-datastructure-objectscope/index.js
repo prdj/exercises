@@ -7,7 +7,7 @@ const student = {
     lastName: "Smith",
     class: 12,
     printer: function () {
-        console.log(`${this.firstName} ${this.lastName} is a student in class ${this.class}`)
+        console.log(`${this.firstName} ${this.lastName} is a student in class ${this.class}.`)
     }
 };
 
@@ -32,7 +32,6 @@ personInfo.printer();
 
 
 console.log('3-)');
-
 
 let objLength = Object.keys(personInfo).length;
 console.log(objLength);
