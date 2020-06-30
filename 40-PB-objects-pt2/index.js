@@ -81,14 +81,13 @@ console.log(empty({
 }));
 
 console.log('4-)');
-let myarr = [];
-const counts = {};
-
 
 function countLetters(str) {
+    let myarr = [];
+    const counts = {};
     myarr = str.split('');
-    myarr.forEach((el) => {
-        counts[el] = counts[el] ? (counts[el] += 1) : 1;
+    myarr.forEach((letter) => {
+        counts[letter] = counts[letter] ? (counts[letter] += 1) : 1;
     });
     return counts;
 }
@@ -122,23 +121,22 @@ const programming = {
     isChallenging: true,
     isRewarding: true,
     difficulty: 8,
-    jokes:
-      "http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
-  };
+    jokes: "http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
+};
 
-  programming.languages.push('go');
-  programming.difficulty= 7;
-  delete programming.jokes;
-  programming.isFun= true;
+programming.languages.push('go');
+programming.difficulty = 7;
+delete programming.jokes;
+programming.isFun = true;
 
 
-  console.log(programming);
+console.log(programming);
 
-  for (let i=0; i < programming.languages.length; i++){
+for (let i = 0; i < programming.languages.length; i++) {
     console.log(programming.languages[i]);
 }
 
-for (let i=0; i < programming.length; i++){
+for (let i = 0; i < programming.length; i++) {
     console.log(programming.languages[i]);
 }
 
