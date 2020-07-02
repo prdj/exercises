@@ -80,4 +80,4 @@ const arr3 = [3, 5, 8, 2];
 
 arr3.map(Math.sqrt);
 
-console.log(arr3.map(Math.sqrt));git
+console.log(arr3.map(Math.sqrt));
